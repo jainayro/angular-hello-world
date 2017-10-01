@@ -3,5 +3,7 @@
 </p>
 
 <ul>
-  <li *ngFor="let name of names">Hello {{name}}</li>
+  <li *ngFor="let name of names">
+    <user-item [name]="name"></user-item>
+  </li>
 </ul>
